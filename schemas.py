@@ -6,3 +6,7 @@ class Todo(BaseModel):
     title: str
     description: Optional[str] = None
     completed: bool= False
+
+class User(BaseModel):
+    email : str
+    password: str
